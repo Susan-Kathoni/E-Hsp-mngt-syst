@@ -28,9 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/uikit/dist/css/uikit.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/uikit/dist/js/uikit.min.js",
+              "node_modules/uikit/dist/js/uikit-icons.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "hospital-mgt"
+  "defaultProject": "hospital-mgt",
+  "cli": {
+    "analytics": "4da803e2-9b1d-4bee-bd21-8c7d3aa60b31"
+  }
 }

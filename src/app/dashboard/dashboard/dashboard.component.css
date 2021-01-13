@@ -1,0 +1,17 @@
+.sidenav {
+    background-color: white !important;
+    height: 90vh !important;
+}
+
+nav {
+    background-color: white !important;
+}
+
+/* .content{
+    background-color: #F3F3F3 !important;
+} */
+
+.name {
+    font-weight: bold;
+    text-align: center;
+}
