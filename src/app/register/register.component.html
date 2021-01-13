@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-5">
+        <h2 style="color: brown; font-weight: bolder; font-size: 40px;">Registration page</h2>
+        <form>
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="form3Example1" style="color: black; font-weight: bolder;">First name</label>
+                <input type="text" id="form3Example1" class="form-control" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="form3Example2" style="color: black; font-weight: bolder;">Last name</label>
+                <input type="text" id="form3Example2" class="form-control" />
+              </div>
+            </div>
+          </div>
+  
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form3Example3" style="color: black; font-weight: bolder;">Email</label>
+            <input type="text" id="form3Example3" class="form-control" />
+          </div>
+  
+          <!-- Password input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form3Example4" style="color: black; font-weight: bolder;">Password</label>
+            <input type="password" id="form3Example4" class="form-control" />
+          </div>
+  
+          <!--  input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="form3Example4" style="color: black; font-weight: bolder;">Are you a Doctor or Patient?</label>
+            <input type="text" id="form3Example4" class="form-control" />
+          </div>
+  
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-dark btn-block mb-4"><a [routerLink]="['/landing-page']">Login</a></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
