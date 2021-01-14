@@ -4,7 +4,16 @@
 
 export const environment = {
   production: false,
-  baseurl: "https://hmsystem234.herokuapp.com/api/"
+
+  baseurl: "https://hmsystem234.herokuapp.com/api/",
+  loginEndpoint: 'https://hmsystem234.herokuapp.com/api/login/',
+  signupEndpoint: 'https://hmsystem234.herokuapp.com/api/users/',
+  allUsersEndpoint: 'https://hmsystem234.herokuapp.com/api/users/',
+  bookAppointmentEndpoint: 'https://hmsystem234.herokuapp.com/api/appointments/',
+  viewApointmentEndpoint: 'https://hmsystem234.herokuapp.com/api/appointments/',
+  responseToAppointmentEndpoint: 'https://hmsystem234.herokuapp.com/api/response/',
+  patientViewsAppointmentEndpoint: 'https://hmsystem234.herokuapp.com/api/response/',
+  
 };
 
 /*
